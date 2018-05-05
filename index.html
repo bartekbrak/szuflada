@@ -1,0 +1,60 @@
+<html>
+<head>
+<style>
+body {
+    padding-top: 15px;
+    max-width:800px;
+    margin: auto
+}
+i {
+    background-color: whitesmoke;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 900;
+    padding: 0 5px;
+}
+p {
+    text-align:justify;
+    padding-left: 10px;
+}
+</style>
+<title>Szuflada programisty</title>
+</head>
+<h1>Szuflada programisty - bartek.rychlicki@gmail.com</h1>
+<description>
+Na tej stronie zbieram pomysły, których najpewniej nie zrelizuję.
+Wszystkie są objęte <a href="https://tldrlegal.com/license/mit-license"
+>licencją MIT</a>, jeżeli chcesz wykonać, któryś z projektów ale
+potrzebujesz innej licencji, napisz do mnie: bartek.rychlicki@gmail.com.
+</description>
+<hr>
+<h3>Wtyczka do dzielenia się spostrzeżeniami nt konsumowanej treści
+programistycznej w Internwecie</h3>
+<p>
+<b>Problem:</b> Chcę wiedzieć co oglądają, czytają inni znajomi
+programiści, jak oceniają, po to, żebym mógł oglądać to co dobrej
+jakości. Interesuje mnie również wyszukiwanie treści po krótkim opisie,
+kategoriach i tagach.</p>
+
+<p><b>Rozwiązanie:</b> Wtyczka do przeglądarki Chrome, do której logujemy
+się za pomocą adresu e-mail (lub anonimowo) i adresu serwera. Wtyczka
+wyświetla na predefiniowanych stronach ikonę, która po kliknięciu
+umożliwia wpisanie oceny w skali, etykie i szerszego opisu. Wyświetla
+również poprzednie oceny.
+</p>
+
+<p>Serwer to minimalistyczna baza danych o jednej tabeli i zadanej
+strukturze. Wystawia linki z hashem typu
+<i>https://server/YjcxNzA0NTItMjEyNy00ZDA4LWE5NmQtZjNmZGY0ZTBjNmIz</i>,
+które są końcówką do zbierania danych. Każdy kto użyje danego linka,
+będzie widział dane innych osób, które znają ten link. Nie trzeba
+tworzyć tyck linków, serwer przyjmie każdy. Wejście GET na danego linka
+wyświetli dane w postaci tabeli.
+</p>
+
+<p>
+<b>Problemy:</b> Prywatność nie jest gwarantowana i nie należy
+umieszczać w opisach danych, które są wrażliwe.
+</p>
+<hr>
